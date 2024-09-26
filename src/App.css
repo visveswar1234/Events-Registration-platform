@@ -1,0 +1,13 @@
+/* App.css */
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #fff; /* Set default background color to white */
+  transition: background-color 0.5s;
+}
+
+.container.dark {
+  background: #000; /* Change background color to black in dark mode */
+}
+
